@@ -1,0 +1,35 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Python-кэш
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Файлы базы данных SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# Переменные окружения и секреты
+.env
+.env.*
+
+# Тесты и покрытие
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.idea/
+.vscode/
+
+# ОС
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Docker (локальные артефакты, если появятся)
+*.log
